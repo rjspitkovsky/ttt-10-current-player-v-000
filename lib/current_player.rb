@@ -9,7 +9,7 @@ turns = 0
 end
 
 def current_player(board)
-  if turn_count.even?
+  if turn_count.odd?
     return "O"
   end
 end
