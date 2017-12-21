@@ -8,6 +8,10 @@ turns = 0
   turns
 end
 
-def current_player()
-
-end 
+def current_player(board)
+  if turn_count % 2 == 0
+    return "X"
+  else
+    return "O"
+  end 
+end
